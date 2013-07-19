@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Получить все спецификации на листе</Text>
+    <Description>Some description for ScheduleAPIDemo</Description>
+    <Assembly>ScheduleAPIDemo.dll</Assembly>
+    <FullClassName>ScheduleAPIDemo.GetSchedulesOnSheetCommand</FullClassName>
+    <ClientId>01a52024-f26b-46e9-9c41-3b4a1891b437</ClientId>
+    <VendorId>VC</VendorId>    
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Получить элементы спецификации</Text>   
+    <Assembly>ScheduleAPIDemo.dll</Assembly>
+    <FullClassName>ScheduleAPIDemo.GetElementsInScheduleCommand</FullClassName>
+    <ClientId>{1AA7D2E2-91DC-4DDA-AC00-16D318671C29}</ClientId>
+    <VendorId>VC</VendorId>
+  </AddIn>
+</RevitAddIns>
